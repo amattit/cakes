@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B378F341E93948D00EA7C58 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B378F331E93948D00EA7C58 /* Constants.swift */; };
+		4B378F361E9395B800EA7C58 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B378F351E9395B800EA7C58 /* AppState.swift */; };
+		4B378F381E93960500EA7C58 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B378F371E93960500EA7C58 /* SignInViewController.swift */; };
+		4B378F3B1E93EA1A00EA7C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B378F391E93EA1A00EA7C58 /* Main.storyboard */; };
+		4B3BD3D01E94F8430045365C /* CakeDownLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD3CF1E94F8430045365C /* CakeDownLoad.swift */; };
+		4B4304491E8EF6B000C22F93 /* CakeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4304481E8EF6B000C22F93 /* CakeCollectionViewCell.swift */; };
+		4B43044B1E8EFBF600C22F93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B43044A1E8EFBF600C22F93 /* GoogleService-Info.plist */; };
+		4B43044E1E8EFEA700C22F93 /* AddCakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B43044D1E8EFEA700C22F93 /* AddCakeViewController.swift */; };
+		4B4304501E8F173400C22F93 /* analitics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B43044F1E8F173400C22F93 /* analitics.swift */; };
+		4BF04D4D1E8E73BF00AFC9F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF04D4C1E8E73BF00AFC9F0 /* AppDelegate.swift */; };
+		4BF04D4F1E8E73BF00AFC9F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF04D4E1E8E73BF00AFC9F0 /* ViewController.swift */; };
+		4BF04D541E8E73BF00AFC9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF04D531E8E73BF00AFC9F0 /* Assets.xcassets */; };
+		4BF04D571E8E73BF00AFC9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF04D551E8E73BF00AFC9F0 /* LaunchScreen.storyboard */; };
+		7E15B1901E9D0FB300383B7F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B18F1E9D0FB300383B7F /* ChatViewController.swift */; };
+		7E15B1921E9D113300383B7F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B1911E9D113300383B7F /* Message.swift */; };
+		7E15B1941E9D120B00383B7F /* GetChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B1931E9D120B00383B7F /* GetChat.swift */; };
+		7E15B1961E9D2BF900383B7F /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B1951E9D2BF900383B7F /* ChatTableViewCell.swift */; };
+		7E15B1991E9E819D00383B7F /* CakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15B1981E9E819D00383B7F /* CakeViewController.swift */; };
+		7E6AF99B1EA8B8F30001BB89 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AF99A1EA8B8F30001BB89 /* CategoryCollectionViewCell.swift */; };
+		7E6AF99D1EAFA7C10001BB89 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AF99C1EAFA7C10001BB89 /* ProfileViewController.swift */; };
+		7EBDFA561EA66BFA0017995D /* CakeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBDFA551EA66BFA0017995D /* CakeViewCell.swift */; };
+		7EBF61D21E9F858D0060331B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBF61D11E9F858D0060331B /* Utils.swift */; };
+		7EC58ABC1E99511600D11E81 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC58ABB1E99511600D11E81 /* Cake.swift */; };
+		7EC58ABF1E998DCF00D11E81 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC58ABE1E998DCF00D11E81 /* CatalogViewController.swift */; };
+		7EC58AC71E9991F800D11E81 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC58AC61E9991F800D11E81 /* Catalog.swift */; };
+		7EC603CD1EA24CAA0048EF01 /* AddPhTCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC603CC1EA24CAA0048EF01 /* AddPhTCViewController.swift */; };
+		F25858745467479D3A1D3F86 /* Pods_Cakes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C028871E48F5262EB62812DB /* Pods_Cakes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B378F331E93948D00EA7C58 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B378F351E9395B800EA7C58 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		4B378F371E93960500EA7C58 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4B378F3A1E93EA1A00EA7C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B3BD3CF1E94F8430045365C /* CakeDownLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeDownLoad.swift; sourceTree = "<group>"; };
+		4B4304481E8EF6B000C22F93 /* CakeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B43044A1E8EFBF600C22F93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B43044D1E8EFEA700C22F93 /* AddCakeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCakeViewController.swift; sourceTree = "<group>"; };
+		4B43044F1E8F173400C22F93 /* analitics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = analitics.swift; sourceTree = "<group>"; };
+		4BF04D491E8E73BF00AFC9F0 /* Cakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF04D4C1E8E73BF00AFC9F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BF04D4E1E8E73BF00AFC9F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BF04D531E8E73BF00AFC9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BF04D561E8E73BF00AFC9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BF04D581E8E73BF00AFC9F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E15B18F1E9D0FB300383B7F /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7E15B1911E9D113300383B7F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7E15B1931E9D120B00383B7F /* GetChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetChat.swift; sourceTree = "<group>"; };
+		7E15B1951E9D2BF900383B7F /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		7E15B1971E9E6BC600383B7F /* Cakes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cakes.entitlements; sourceTree = "<group>"; };
+		7E15B1981E9E819D00383B7F /* CakeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeViewController.swift; sourceTree = "<group>"; };
+		7E6AF99A1EA8B8F30001BB89 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E6AF99C1EAFA7C10001BB89 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7EBDFA551EA66BFA0017995D /* CakeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeViewCell.swift; sourceTree = "<group>"; };
+		7EBF61D11E9F858D0060331B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7EC58ABB1E99511600D11E81 /* Cake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		7EC58ABE1E998DCF00D11E81 /* CatalogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		7EC58AC61E9991F800D11E81 /* Catalog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		7EC603CC1EA24CAA0048EF01 /* AddPhTCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhTCViewController.swift; sourceTree = "<group>"; };
+		C028871E48F5262EB62812DB /* Pods_Cakes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cakes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DB79BD28413372FFCB6DC5 /* Pods-Cakes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cakes.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cakes/Pods-Cakes.release.xcconfig"; sourceTree = "<group>"; };
+		E1061246CB61CA747C5C4756 /* Pods-Cakes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cakes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cakes/Pods-Cakes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF04D461E8E73BF00AFC9F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25858745467479D3A1D3F86 /* Pods_Cakes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B378F3C1E93EB8E00EA7C58 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				4B378F371E93960500EA7C58 /* SignInViewController.swift */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		4B378F3D1E93EBA800EA7C58 /* addCake */ = {
+			isa = PBXGroup;
+			children = (
+				4B43044D1E8EFEA700C22F93 /* AddCakeViewController.swift */,
+				7EC603CC1EA24CAA0048EF01 /* AddPhTCViewController.swift */,
+			);
+			name = addCake;
+			sourceTree = "<group>";
+		};
+		4B43044C1E8EFE4700C22F93 /* cakeList */ = {
+			isa = PBXGroup;
+			children = (
+				4BF04D4E1E8E73BF00AFC9F0 /* ViewController.swift */,
+				4B4304481E8EF6B000C22F93 /* CakeCollectionViewCell.swift */,
+			);
+			name = cakeList;
+			sourceTree = "<group>";
+		};
+		4BF04D401E8E73BF00AFC9F0 = {
+			isa = PBXGroup;
+			children = (
+				4B43044F1E8F173400C22F93 /* analitics.swift */,
+				4BF04D4B1E8E73BF00AFC9F0 /* Cakes */,
+				4BF04D4A1E8E73BF00AFC9F0 /* Products */,
+				E35AE61AE5B4768CFDEACD38 /* Pods */,
+				6466897B2BA7E8CA60690F4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF04D4A1E8E73BF00AFC9F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF04D491E8E73BF00AFC9F0 /* Cakes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF04D4B1E8E73BF00AFC9F0 /* Cakes */ = {
+			isa = PBXGroup;
+			children = (
+				7E15B1971E9E6BC600383B7F /* Cakes.entitlements */,
+				7EC58AC31E99912500D11E81 /* Model */,
+				7EC58AC21E99911300D11E81 /* Services */,
+				7EC58ABA1E9950E900D11E81 /* View */,
+				4B43044A1E8EFBF600C22F93 /* GoogleService-Info.plist */,
+				4BF04D4C1E8E73BF00AFC9F0 /* AppDelegate.swift */,
+				4BF04D531E8E73BF00AFC9F0 /* Assets.xcassets */,
+				4BF04D551E8E73BF00AFC9F0 /* LaunchScreen.storyboard */,
+				4B378F391E93EA1A00EA7C58 /* Main.storyboard */,
+				4BF04D581E8E73BF00AFC9F0 /* Info.plist */,
+				4B378F351E9395B800EA7C58 /* AppState.swift */,
+				4B378F331E93948D00EA7C58 /* Constants.swift */,
+			);
+			path = Cakes;
+			sourceTree = "<group>";
+		};
+		6466897B2BA7E8CA60690F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C028871E48F5262EB62812DB /* Pods_Cakes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E15B18E1E9D0F9A00383B7F /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				7E15B18F1E9D0FB300383B7F /* ChatViewController.swift */,
+				7E15B1951E9D2BF900383B7F /* ChatTableViewCell.swift */,
+			);
+			name = chat;
+			sourceTree = "<group>";
+		};
+		7E15B19A1E9E81A400383B7F /* CakeView */ = {
+			isa = PBXGroup;
+			children = (
+				7E15B1981E9E819D00383B7F /* CakeViewController.swift */,
+				7EBDFA551EA66BFA0017995D /* CakeViewCell.swift */,
+			);
+			name = CakeView;
+			sourceTree = "<group>";
+		};
+		7E6AF99E1EAFA7CB0001BB89 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7E6AF99C1EAFA7C10001BB89 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		7EC58ABA1E9950E900D11E81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E6AF99E1EAFA7CB0001BB89 /* Profile */,
+				7E15B19A1E9E81A400383B7F /* CakeView */,
+				7E15B18E1E9D0F9A00383B7F /* chat */,
+				7EC58ABD1E998DA100D11E81 /* catalogList */,
+				4B378F3D1E93EBA800EA7C58 /* addCake */,
+				4B43044C1E8EFE4700C22F93 /* cakeList */,
+				4B378F3C1E93EB8E00EA7C58 /* SignIn */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7EC58ABD1E998DA100D11E81 /* catalogList */ = {
+			isa = PBXGroup;
+			children = (
+				7EC58ABE1E998DCF00D11E81 /* CatalogViewController.swift */,
+				7E6AF99A1EA8B8F30001BB89 /* CategoryCollectionViewCell.swift */,
+			);
+			name = catalogList;
+			sourceTree = "<group>";
+		};
+		7EC58AC21E99911300D11E81 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B3BD3CF1E94F8430045365C /* CakeDownLoad.swift */,
+				7E15B1931E9D120B00383B7F /* GetChat.swift */,
+				7EBF61D11E9F858D0060331B /* Utils.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		7EC58AC31E99912500D11E81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EC58AC61E9991F800D11E81 /* Catalog.swift */,
+				7EC58ABB1E99511600D11E81 /* Cake.swift */,
+				7E15B1911E9D113300383B7F /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E35AE61AE5B4768CFDEACD38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1061246CB61CA747C5C4756 /* Pods-Cakes.debug.xcconfig */,
+				D9DB79BD28413372FFCB6DC5 /* Pods-Cakes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF04D481E8E73BF00AFC9F0 /* Cakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF04D5B1E8E73BF00AFC9F0 /* Build configuration list for PBXNativeTarget "Cakes" */;
+			buildPhases = (
+				811DDE3E1B3F34F6A237B688 /* [CP] Check Pods Manifest.lock */,
+				4BF04D451E8E73BF00AFC9F0 /* Sources */,
+				4BF04D461E8E73BF00AFC9F0 /* Frameworks */,
+				4BF04D471E8E73BF00AFC9F0 /* Resources */,
+				60EFC36F2D8AF6F932AD385A /* [CP] Embed Pods Frameworks */,
+				051EF24E23FDAE362F890C59 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cakes;
+			productName = Cakes;
+			productReference = 4BF04D491E8E73BF00AFC9F0 /* Cakes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF04D411E8E73BF00AFC9F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mikhail Seregin";
+				TargetAttributes = {
+					4BF04D481E8E73BF00AFC9F0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8FR82B7BH7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4BF04D441E8E73BF00AFC9F0 /* Build configuration list for PBXProject "Cakes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BF04D401E8E73BF00AFC9F0;
+			productRefGroup = 4BF04D4A1E8E73BF00AFC9F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF04D481E8E73BF00AFC9F0 /* Cakes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF04D471E8E73BF00AFC9F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF04D571E8E73BF00AFC9F0 /* LaunchScreen.storyboard in Resources */,
+				4B43044B1E8EFBF600C22F93 /* GoogleService-Info.plist in Resources */,
+				4BF04D541E8E73BF00AFC9F0 /* Assets.xcassets in Resources */,
+				4B378F3B1E93EA1A00EA7C58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051EF24E23FDAE362F890C59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cakes/Pods-Cakes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60EFC36F2D8AF6F932AD385A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cakes/Pods-Cakes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811DDE3E1B3F34F6A237B688 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF04D451E8E73BF00AFC9F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF04D4F1E8E73BF00AFC9F0 /* ViewController.swift in Sources */,
+				7EC58ABF1E998DCF00D11E81 /* CatalogViewController.swift in Sources */,
+				7E15B1991E9E819D00383B7F /* CakeViewController.swift in Sources */,
+				7EC603CD1EA24CAA0048EF01 /* AddPhTCViewController.swift in Sources */,
+				4B4304501E8F173400C22F93 /* analitics.swift in Sources */,
+				4B378F361E9395B800EA7C58 /* AppState.swift in Sources */,
+				7E6AF99D1EAFA7C10001BB89 /* ProfileViewController.swift in Sources */,
+				4B4304491E8EF6B000C22F93 /* CakeCollectionViewCell.swift in Sources */,
+				4B378F381E93960500EA7C58 /* SignInViewController.swift in Sources */,
+				7E6AF99B1EA8B8F30001BB89 /* CategoryCollectionViewCell.swift in Sources */,
+				4B43044E1E8EFEA700C22F93 /* AddCakeViewController.swift in Sources */,
+				4BF04D4D1E8E73BF00AFC9F0 /* AppDelegate.swift in Sources */,
+				7E15B1941E9D120B00383B7F /* GetChat.swift in Sources */,
+				7EC58ABC1E99511600D11E81 /* Cake.swift in Sources */,
+				4B3BD3D01E94F8430045365C /* CakeDownLoad.swift in Sources */,
+				7EBDFA561EA66BFA0017995D /* CakeViewCell.swift in Sources */,
+				7E15B1901E9D0FB300383B7F /* ChatViewController.swift in Sources */,
+				7E15B1961E9D2BF900383B7F /* ChatTableViewCell.swift in Sources */,
+				7EC58AC71E9991F800D11E81 /* Catalog.swift in Sources */,
+				7E15B1921E9D113300383B7F /* Message.swift in Sources */,
+				4B378F341E93948D00EA7C58 /* Constants.swift in Sources */,
+				7EBF61D21E9F858D0060331B /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B378F391E93EA1A00EA7C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B378F3A1E93EA1A00EA7C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BF04D551E8E73BF00AFC9F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF04D561E8E73BF00AFC9F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF04D591E8E73BF00AFC9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BF04D5A1E8E73BF00AFC9F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF04D5C1E8E73BF00AFC9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1061246CB61CA747C5C4756 /* Pods-Cakes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cakes/Cakes.entitlements;
+				DEVELOPMENT_TEAM = 8FR82B7BH7;
+				INFOPLIST_FILE = Cakes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mikhail-Seregin.Cakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4BF04D5D1E8E73BF00AFC9F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DB79BD28413372FFCB6DC5 /* Pods-Cakes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cakes/Cakes.entitlements;
+				DEVELOPMENT_TEAM = 8FR82B7BH7;
+				INFOPLIST_FILE = Cakes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mikhail-Seregin.Cakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF04D441E8E73BF00AFC9F0 /* Build configuration list for PBXProject "Cakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF04D591E8E73BF00AFC9F0 /* Debug */,
+				4BF04D5A1E8E73BF00AFC9F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF04D5B1E8E73BF00AFC9F0 /* Build configuration list for PBXNativeTarget "Cakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF04D5C1E8E73BF00AFC9F0 /* Debug */,
+				4BF04D5D1E8E73BF00AFC9F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF04D411E8E73BF00AFC9F0 /* Project object */;
+}
